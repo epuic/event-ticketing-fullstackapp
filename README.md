@@ -1,7 +1,7 @@
 # Event Ticketing App 🚀
 
 ## Overview
-This project is a web-based platform where users can register, log in, and purchase tickets for various events. It features multiple pages, including an events page for browsing and booking tickets. 
+This project is a web-based platform where users can register, log in and purchase tickets for various events. It features multiple pages, including an events page for browsing and booking tickets. 
 
 Administrators have additional privileges, allowing them to manage events (add, edit, delete) and oversee user accounts. The system ensures secure authentication and role-based access control using JWT for efficient and protected user sessions.
 
@@ -14,7 +14,7 @@ Administrators have additional privileges, allowing them to manage events (add, 
 - **Secure Authentication**: JWT-based authentication and role-based access control
 - **Database Connectivity**: Persistent data storage using MySQL
 - **REST API**: Implementation of a RESTful controller using Spring Boot
-- **Layered Architecture**: Organized into DAO, Repository, Service, and Controller layers
+- **Layered Architecture**: Organized into DAO, Repository, Service and Controller layers
 
 ---
 
