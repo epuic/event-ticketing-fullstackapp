@@ -1,4 +1,4 @@
-# Event Ticketing App 🚀
+# Event Ticketing App 
 
 ## Overview
 This project is a web-based platform where users can register, log in and purchase tickets for various events. It features multiple pages, including an events page for browsing and booking tickets. 
