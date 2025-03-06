@@ -1,0 +1,91 @@
+/* Navbar Container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px 40px;  /* Increased padding for a larger navbar */
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 80px;  /* Set a fixed height for the navbar */
+}
+
+/* Navbar Links */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 30px;  /* Increased spacing between links */
+}
+
+/* Links */
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;  /* Increased font size */
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 12px 20px;  /* Increased padding for larger clickable area */
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Active Link */
+a.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Logout Button */
+a.logout {
+    background-color: #dc3545;
+    color: white;
+    padding: 14px 20px;  /* Larger padding */
+    border-radius: 5px;
+    margin-left: auto;
+    text-align: center;
+}
+
+a.logout:hover {
+    background-color: #c82333;
+}
+
+/* Admin-Specific Styles */
+li.admin-only {
+    display: none;
+}
+
+li.admin-only.active {
+    display: block;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;  /* Remove fixed height on small screens */
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    li {
+        margin-bottom: 15px;  /* Increased spacing for mobile view */
+    }
+
+    a {
+        font-size: 16px;  /* Adjust font size for smaller screens */
+        padding: 15px 25px;  /* Larger padding on mobile for better touch interaction */
+    }
+}

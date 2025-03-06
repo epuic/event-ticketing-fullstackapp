@@ -1,0 +1,114 @@
+/* Login Page Container */
+.auth-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* Error Message */
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"]:active {
+    background-color: #003f7f;
+}
+
+/* Register Button */
+button.reg-button {
+    background-color: #28a745;
+    color: white;
+    margin-top: 15px;
+}
+
+button.reg-button:hover {
+    background-color: #218838;
+}
+
+button.reg-button:active {
+    background-color: #1e7e34;
+}
+
+/* Link inside button */
+button.reg-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .auth-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    button[type="submit"],
+    button.reg-button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+}

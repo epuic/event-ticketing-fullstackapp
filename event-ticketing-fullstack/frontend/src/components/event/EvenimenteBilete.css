@@ -1,0 +1,142 @@
+/* EventManagementPage.css */
+
+/* Container principal */
+.user-management-container {
+    padding: 20px;
+    background: linear-gradient(135deg, #f7f9fc, #dde1e7); /* Fundal cu gradient subtil */
+    font-family: 'Poppins', sans-serif; /* Font modern */
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Titlul paginii */
+.user-management-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 4px solid #3498db; /* Linie decorativă sub titlu */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Butonul de adăugare evenimente */
+.reg-button {
+    background: linear-gradient(145deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Efect hover pentru buton */
+.reg-button:hover {
+    background: linear-gradient(145deg, #2980b9, #3498db);
+    transform: scale(1.1);
+}
+
+/* Tabel pentru evenimente */
+table {
+    width: 80%; /* Dimensiune mai mică */
+    margin: 20px auto; /* Centrare tabel */
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background: #34495e; /* Culoare mai închisă */
+    color: #ecf0f1; /* Altă nuanță pentru text */
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+thead th {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background 0.3s ease;
+}
+
+tbody tr:hover {
+    background: #f1f1f1;
+}
+
+tbody td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #2c3e50; /* Culoare mai închisă pentru text */
+}
+
+/* Butoane pentru acțiuni */
+.delete-button {
+    background: linear-gradient(145deg, #e74c3c, #c0392b);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.delete-button:hover {
+    background: linear-gradient(145deg, #c0392b, #e74c3c);
+    transform: scale(1.1);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background: linear-gradient(145deg, #27ae60, #229954);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 5px;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #229954, #27ae60);
+    transform: scale(1.1);
+}
+
+/* Responsivitate pentru ecrane mici */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    thead th, tbody td {
+        padding: 8px 10px;
+    }
+
+    .reg-button, .delete-button, button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .user-management-container h2 {
+        font-size: 24px;
+    }
+}
