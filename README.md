@@ -7,7 +7,6 @@ Administrators have additional privileges, allowing them to manage events (add, 
 
 ---
 
-![Exemplu de imagine](/events.png)
 
 ## Features
 - **User Management**: Complete CRUD functionality for managing user data
@@ -35,3 +34,6 @@ Administrators have additional privileges, allowing them to manage events (add, 
 
 ---
 
+(/register.png)
+(/events.png)
+(/events_management.png)
