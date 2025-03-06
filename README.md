@@ -7,6 +7,8 @@ Administrators have additional privileges, allowing them to manage events (add, 
 
 ---
 
+![Exemplu de imagine](/events.png)
+
 ## Features
 - **User Management**: Complete CRUD functionality for managing user data
 - **Event Management**: Admins can add, edit, and delete events
