@@ -34,9 +34,10 @@ Administrators have additional privileges, allowing them to manage events (add, 
 
 ---
 
-![Exemplu de imagine](/register.png)
-![Exemplu de imagine](/events.png)
-
 # As a user, you cannot access **Events Management** or **Users Management**, as shown in the image below:
 ![Exemplu de imagine](/user.png)
+
+# As an admin: 
+![Exemplu de imagine](/register.png)
+![Exemplu de imagine](/events.png)
 ![Exemplu de imagine](/events_management.png)
