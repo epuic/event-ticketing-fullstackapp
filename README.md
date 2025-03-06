@@ -34,6 +34,6 @@ Administrators have additional privileges, allowing them to manage events (add, 
 
 ---
 
-(/register.png)
-(/events.png)
-(/events_management.png)
+![Exemplu de imagine](/register.png)
+![Exemplu de imagine](/events.png)
+![Exemplu de imagine](/events_management.png)
