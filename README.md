@@ -10,7 +10,7 @@ Administrators have additional privileges, allowing them to manage events (add, 
 
 ## Features
 - **User Management**: Complete CRUD functionality for managing user data
-- **Event Management**: Admins can add, edit, and delete events
+- **Event Management**: Admins can add, edit and delete events
 - **Secure Authentication**: JWT-based authentication and role-based access control
 - **Database Connectivity**: Persistent data storage using MySQL
 - **REST API**: Implementation of a RESTful controller using Spring Boot
